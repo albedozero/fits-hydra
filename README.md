@@ -31,7 +31,7 @@ To compile standalone executables for other systems using PyInstaller, obtain
 the program from https://github.com/pyinstaller/pyinstaller (additional information
 at http://www.pyinstaller.org ), download this repository, and run the command
 
-      pyinstaller fits_hydra.py -F -i <icon_file>
+      pyinstaller fits_hydra.py -F -w -i <icon_file>
 
 where *icon_file* is the appropriate icon file found in icons/, if desired.
 

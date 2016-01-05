@@ -23,8 +23,8 @@ class MainWindow(wx.Frame):
 	def __init__(self, filename='noname.txt'):
 		super(MainWindow, self).__init__(None)
 		super(MainWindow, self).SetTitle('FITS Hydra')
-		_icon = wx.Icon('fits_hydra.ico', wx.BITMAP_TYPE_ICO)
-		self.SetIcon(_icon)
+#		_icon = wx.Icon('fits_hydra.ico', wx.BITMAP_TYPE_ICO)
+#		self.SetIcon(_icon)
 		self.SetSize((700,500))
 
 		self.hdrs = {}
