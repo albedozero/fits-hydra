@@ -33,7 +33,7 @@ at http://www.pyinstaller.org ), download this repository, and run the command
 
       pyinstaller fits_hydra.py -F -i <icon_file>
 
-where <icon_file> is the appropriate icon file found in icons/, if desired.
+where *icon_file* is the appropriate icon file found in icons/, if desired.
 
 
 
